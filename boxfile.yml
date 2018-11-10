@@ -1,0 +1,22 @@
+run.config:
+    engine: php
+    engine.config:
+        runtime: php-7.2
+        extensions:
+            - phalcon
+            - curl
+            - gd
+            - zip
+            - mcrypt
+            - dom
+            - pdo
+            - pdo_mysql
+            - newrelic
+
+        composer_install: "composer install --no-interaction --prefer-source"
+
+        extra_path_dirs:
+            - vendor/bin
+
+        build_triggers:
+            - package.json
