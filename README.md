@@ -1,2 +1,2 @@
 # php-nanobox
-Projeto criado para o artigo https-medium-com-dibmartins-nanobox-com-php-parte-1-introducao-ao-micro-paas-2355ddfa4589
+Projeto criado para o artigo Nanobox com PHP  - Uma introdução ao Micro-PaaS
